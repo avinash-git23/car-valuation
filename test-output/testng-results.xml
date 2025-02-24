@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="0" failed="0" skipped="2">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-02-24T12:23:48 GMT" name="Command line suite" finished-at="2025-02-24T12:23:51 GMT" duration-ms="2527">
+    <groups>
+    </groups>
+    <test started-at="2025-02-24T12:23:48 GMT" name="Command line test" finished-at="2025-02-24T12:23:51 GMT" duration-ms="2527">
+      <class name="com.example.tests.ValuationTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.example.tests.ValuationTest@77f99a05]" started-at="2025-02-24T12:23:48 GMT" name="setUp" finished-at="2025-02-24T12:23:51 GMT" duration-ms="2491" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Error in @BeforeClass setup: Could not start a new session. Response code 500. Message: session not created: This version of ChromeDriver only supports Chrome version 114
+Current browser version is 133.0.6943.127 with binary path /Applications/Google Chrome.app/Contents/MacOS/Google Chrome 
+Host info: host: 'sahitis-MacBook-Pro.local', ip: 'fe80:0:0:0:1c15:c53f:e203:28cd%en0'
+Build info: version: '4.9.0', revision: 'd7057100a6'
+System info: os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '15.3.1', java.version: '23.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [null, newSession {capabilities=[Capabilities {browserName: chrome, goog:chromeOptions: {args: [--remote-allow-origins=*], extensions: []}}]}]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Error in @BeforeClass setup: Could not start a new session. Response code 500. Message: session not created: This version of ChromeDriver only supports Chrome version 114
+Current browser version is 133.0.6943.127 with binary path /Applications/Google Chrome.app/Contents/MacOS/Google Chrome 
+Host info: host: 'sahitis-MacBook-Pro.local', ip: 'fe80:0:0:0:1c15:c53f:e203:28cd%en0'
+Build info: version: '4.9.0', revision: 'd7057100a6'
+System info: os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '15.3.1', java.version: '23.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [null, newSession {capabilities=[Capabilities {browserName: chrome, goog:chromeOptions: {args: [--remote-allow-origins=*], extensions: []}}]}]
+at org.testng.Assert.fail(Assert.java:110)
+at com.example.tests.ValuationTest.setUp(ValuationTest.java:32)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:361)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:296)
+at org.testng.internal.invokers.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:180)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:122)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+at org.testng.TestRunner.privateRun(TestRunner.java:829)
+at org.testng.TestRunner.run(TestRunner.java:602)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:391)
+at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+at org.testng.TestNG.runSuites(TestNG.java:1099)
+at org.testng.TestNG.run(TestNG.java:1067)
+at com.example.tests.TestRunner.main(TestRunner.java:24)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testCarValuations()[pri:0, instance:com.example.tests.ValuationTest@77f99a05]" started-at="2025-02-24T12:23:51 GMT" name="testCarValuations" finished-at="2025-02-24T12:23:51 GMT" duration-ms="0" status="SKIP">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Error in @BeforeClass setup: Could not start a new session. Response code 500. Message: session not created: This version of ChromeDriver only supports Chrome version 114
+Current browser version is 133.0.6943.127 with binary path /Applications/Google Chrome.app/Contents/MacOS/Google Chrome 
+Host info: host: 'sahitis-MacBook-Pro.local', ip: 'fe80:0:0:0:1c15:c53f:e203:28cd%en0'
+Build info: version: '4.9.0', revision: 'd7057100a6'
+System info: os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '15.3.1', java.version: '23.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [null, newSession {capabilities=[Capabilities {browserName: chrome, goog:chromeOptions: {args: [--remote-allow-origins=*], extensions: []}}]}]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Error in @BeforeClass setup: Could not start a new session. Response code 500. Message: session not created: This version of ChromeDriver only supports Chrome version 114
+Current browser version is 133.0.6943.127 with binary path /Applications/Google Chrome.app/Contents/MacOS/Google Chrome 
+Host info: host: 'sahitis-MacBook-Pro.local', ip: 'fe80:0:0:0:1c15:c53f:e203:28cd%en0'
+Build info: version: '4.9.0', revision: 'd7057100a6'
+System info: os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '15.3.1', java.version: '23.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [null, newSession {capabilities=[Capabilities {browserName: chrome, goog:chromeOptions: {args: [--remote-allow-origins=*], extensions: []}}]}]
+at org.testng.Assert.fail(Assert.java:110)
+at com.example.tests.ValuationTest.setUp(ValuationTest.java:32)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:361)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:296)
+at org.testng.internal.invokers.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:180)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:122)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+at org.testng.TestRunner.privateRun(TestRunner.java:829)
+at org.testng.TestRunner.run(TestRunner.java:602)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:391)
+at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+at org.testng.TestNG.runSuites(TestNG.java:1099)
+at org.testng.TestNG.run(TestNG.java:1067)
+at com.example.tests.TestRunner.main(TestRunner.java:24)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCarValuations -->
+        <test-method signature="testFileAccessibility()[pri:0, instance:com.example.tests.ValuationTest@77f99a05]" started-at="2025-02-24T12:23:51 GMT" name="testFileAccessibility" finished-at="2025-02-24T12:23:51 GMT" duration-ms="0" status="SKIP">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Error in @BeforeClass setup: Could not start a new session. Response code 500. Message: session not created: This version of ChromeDriver only supports Chrome version 114
+Current browser version is 133.0.6943.127 with binary path /Applications/Google Chrome.app/Contents/MacOS/Google Chrome 
+Host info: host: 'sahitis-MacBook-Pro.local', ip: 'fe80:0:0:0:1c15:c53f:e203:28cd%en0'
+Build info: version: '4.9.0', revision: 'd7057100a6'
+System info: os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '15.3.1', java.version: '23.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [null, newSession {capabilities=[Capabilities {browserName: chrome, goog:chromeOptions: {args: [--remote-allow-origins=*], extensions: []}}]}]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Error in @BeforeClass setup: Could not start a new session. Response code 500. Message: session not created: This version of ChromeDriver only supports Chrome version 114
+Current browser version is 133.0.6943.127 with binary path /Applications/Google Chrome.app/Contents/MacOS/Google Chrome 
+Host info: host: 'sahitis-MacBook-Pro.local', ip: 'fe80:0:0:0:1c15:c53f:e203:28cd%en0'
+Build info: version: '4.9.0', revision: 'd7057100a6'
+System info: os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '15.3.1', java.version: '23.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [null, newSession {capabilities=[Capabilities {browserName: chrome, goog:chromeOptions: {args: [--remote-allow-origins=*], extensions: []}}]}]
+at org.testng.Assert.fail(Assert.java:110)
+at com.example.tests.ValuationTest.setUp(ValuationTest.java:32)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:361)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:296)
+at org.testng.internal.invokers.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:180)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:122)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+at org.testng.TestRunner.privateRun(TestRunner.java:829)
+at org.testng.TestRunner.run(TestRunner.java:602)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:391)
+at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+at org.testng.TestNG.runSuites(TestNG.java:1099)
+at org.testng.TestNG.run(TestNG.java:1067)
+at com.example.tests.TestRunner.main(TestRunner.java:24)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testFileAccessibility -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.example.tests.ValuationTest@77f99a05]" started-at="2025-02-24T12:23:51 GMT" name="tearDown" finished-at="2025-02-24T12:23:51 GMT" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.example.tests.ValuationTest -->
+    </test> <!-- Command line test -->
+  </suite> <!-- Command line suite -->
+</testng-results>
